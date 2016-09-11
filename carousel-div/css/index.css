@@ -1,0 +1,67 @@
+.main-container {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 100px;
+	width: 800px;
+}
+.content-container {
+	position: absolute;
+	left: 100px;
+	height: 100px;
+	width: 600px;
+	border: 2px solid red;
+	overflow: hidden;
+}
+
+/*.content {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	border: 1px solid green;
+}*/
+.temp-container {
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: 1px blue;
+}
+
+.content {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border: 1px solid green;
+}
+
+.content div {
+	position: absolute;
+	margin: auto;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	height: 10px;
+	width: 10px;
+	font-size: 23px;
+}
+
+.button {
+	position: absolute;
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 3px;
+	cursor: pointer;
+	top: 40px;
+}
+
+
+.prev {
+	left: 0px;
+	display: none;
+}
+
+.next {
+	right: 0px;
+}
