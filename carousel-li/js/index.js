@@ -24,5 +24,5 @@ $(document).ready(function() {
         } else if (left <= limit) {
             $('.next').css('visibility', 'hidden');
         }
-    })
+    });
 })
