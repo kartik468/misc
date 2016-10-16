@@ -1,25 +1,44 @@
-var node_xj = require("xls-to-json");
-var fs = require('fs');
-var wstream = fs.createWriteStream('myOutput.opml');
+var fileName = 'management.recipe'
 
-node_xj({
-    input: "sampler.xlsx", // input xls 
-    output: "output.json", // output json 
-    sheet: "Sheet3" // specific sheetname 
-}, function(err, result) {
-    if (err) {
-        console.error(err);
-    } else {
-        // console.log(result);
-        myFunction(result);
-    }
-});
+var fs = require('fs');
+// : feeds          = \[(\n.*\(.*\),)*\n.*\]
+// var myRe = new RegExp("feeds          = \[(\n.*\(.*\),)*\n.*\]", "gm");
+// var myRe = new RegExp("feeds          = \\[", "gm");
+
+var matchedArray;
+var resultJson = [];
 
 var mainTitle = 'mixe subscriptions in feedly Cloud';
-var subTitle = 'International News 12';
+var subTitle = 'Management and Leadership';
+
+fs.readFile(fileName, 'utf8', function(err, contents) {
+    // console.log(contents);
+    // console.log(typeof contents);
+    // console.log(contents.match(/(?:.*\(?:.*\)),/gm));
+    var matchedArray = contents.match(/(?:.*\(?:.*\)),/gm);
+    var item;
+    var itemSplitted;
+    var itemJson;
+    for (var i = 0; i < matchedArray.length; i++) {
+      item = matchedArray[i];
+      // console.log('item ' + i + ': '+  item);
+      item = item.match(/(?:\(.*\))/gm)[0];
+      item = item.replace(/\(|\)|'/gm, '');
+      itemSplitted = item.split(', ');
+      // console.log(itemSplitted);
+      // console.log('item ' + i + ': '+  item);
+      itemJson = {};
+      itemJson['title'] = itemSplitted[0];
+      itemJson['xmlUrl'] = itemSplitted[1];
+      resultJson.push(itemJson);
+    }
+    // console.log(resultJson);
+    convertToOpml(resultJson);
+});
 
 
-var myFunction = function(jsonObject) {
+
+var convertToOpml = function(jsonObject) {
     // var START = '<?xml version="1.0" encoding="UTF-8"?><opml version="1.0"><head><title>mixe subscriptions in feedly Cloud</title></head><body><outline text="Sprituality 2" title="Sprituality 2">';
     var START = '';
     START = START + '<?xml version="1.0" encoding="UTF-8"?>\n';
@@ -37,6 +56,9 @@ var myFunction = function(jsonObject) {
     END = END + '</outline>\n';
     END = END + '</body>\n';
     END = END + '</opml>\n';
+
+    var fs = require('fs');
+    var wstream = fs.createWriteStream('myOutput.opml');
 
     wstream.write(START + '\n');
 
@@ -65,3 +87,4 @@ var myFunction = function(jsonObject) {
     wstream.write(END);
     wstream.end();
 }
+

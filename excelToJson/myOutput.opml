@@ -6,76 +6,58 @@
     </head>
 
     <body>
-        <outline text="International News 12" title="International News 12">
-            <outline type="rss" title="levels.io" xmlUrl="http://levels.io/feed/" />
-            <outline type="rss" title="Victor Pride" xmlUrl="http://victorpride.com/feed/" />
-            <outline type="rss" title="Money Crashers" xmlUrl="http://feeds.moneycrashers.com/MoneyCrashersCom" />
-            <outline type="rss" title="The Post Money Value" xmlUrl="http://ricksegal.typepad.com/pmv/atom.xml" />
-            <outline type="rss" title="Spirit Science" xmlUrl="http://thespiritscience.net/feed/" />
-            <outline type="rss" title="Until I Get Married \xae" xmlUrl="http://untiligetmarried.com/feed/" />
-            <outline type="rss" title="The Simple Dollar" xmlUrl="http://feeds.feedburner.com/thesimpledollar" />
-            <outline type="rss" title="Startup Law Blog by Joe Wallin" xmlUrl="http://www.startuplawblog.com/feed/" />
-            <outline type="rss" title="uncapitalized" xmlUrl="http://mabb0tt.wordpress.com/feed/" />
-            <outline type="rss" title="The Daily Muse" xmlUrl="http://feeds.feedburner.com/daily-muse/WQfD" />
-            <outline type="rss" title="Connected States" xmlUrl="http://www.connectedstates.com/journal?format=RSS" />
-            <outline type="rss" title="How To Beast" xmlUrl="http://www.howtobeast.com/feed/" />
-            <outline type="rss" title="About Meditation" xmlUrl="http://aboutmeditation.com/feed/" />
-            <outline type="rss" title="Work Awesome" xmlUrl="http://feeds.feedburner.com/Workawesome" />
-            <outline type="rss" title="Marc Andreessen" xmlUrl="http://feeds.feedburner.com/pmarca" />
-            <outline type="rss" title="Standblog by C. Nitot" xmlUrl="http://standblog.org/dotclear/rss.php" />
-            <outline type="rss" title="Psychology Today" xmlUrl="http://www.psychologytoday.com/front/feed" />
-            <outline type="rss" title="Guy Kawasaki" xmlUrl="http://blog.guykawasaki.com/atom.xml" />
-            <outline type="rss" title="Psychology Today - Relationships" xmlUrl="http://www.psychologytoday.com/topics/relationships/feed" />
-            <outline type="rss" title="The Conscious Life" xmlUrl="http://feeds.feedburner.com/theconsciouslife" />
-            <outline type="rss" title="The Dating Divas" xmlUrl="http://www.thedatingdivas.com/feed/" />
-            <outline type="rss" title="Tikkun Magazine" xmlUrl="http://www.tikkun.org/nextgen/feed" />
-            <outline type="rss" title="Dr. Wayne W. Dyer" xmlUrl="http://www.drwaynedyer.com/feed/" />
-            <outline type="rss" title="Maverick Traveler" xmlUrl="http://maverickmademan.com/feed/" />
-            <outline type="rss" title="A Peaceful Warrior" xmlUrl="http://apeaceful-warrior.blogspot.com/feeds/posts/default" />
-            <outline type="rss" title="Mindful" xmlUrl="http://www.mindful.org/feed/" />
-            <outline type="rss" title="Dave Ramsey" xmlUrl="http://www.daveramsey.com/rss/view-feed/strFeeds/MyTmmo-WeDidIt-StupidTax-CrcSuccessStories-PressRelease-DaveSays" />
-            <outline type="rss" title="Michael Arrington" xmlUrl="http://uncrunched.com/feed/" />
-            <outline type="rss" title="Paul Graham - Hackers and Painters" xmlUrl="http://feeds.feedburner.com/PaulGrahamUnofficialRssFeed" />
-            <outline type="rss" title="Dating Coach for Intelligent Men" xmlUrl="http://www.doctorasianrake.com/feed/" />
-            <outline type="rss" title="The Fundable" xmlUrl="http://thefundable.blogspot.com/feeds/posts/default" />
-            <outline type="rss" title="zen habits" xmlUrl="http://zenhabits.net/feed/" />
-            <outline type="rss" title="Seth Levine" xmlUrl="http://feeds.feedburner.com/VC_Adventure" />
-            <outline type="rss" title="Steve Blank" xmlUrl="http://steveblank.com/feed/" />
-            <outline type="rss" title="I Heart Intelligence" xmlUrl="http://iheartintelligence.com/feed/" />
-            <outline type="rss" title="The Tao of Dating" xmlUrl="http://taoofdating.com/feed/" />
-            <outline type="rss" title="Spirituality & Health Magazine blogs" xmlUrl="http://www.spiritualityhealth.com/blog/feed/" />
-            <outline type="rss" title="Mr. Money Mustache" xmlUrl="http://www.mrmoneymustache.com/feed/" />
-            <outline type="rss" title="Real Men Real Style" xmlUrl="http://www.realmenrealstyle.com/feed/" />
-            <outline type="rss" title="Spirituality & Health Articles" xmlUrl="http://spiritualityhealth.com/article.xml" />
-            <outline type="rss" title="Wildmind Buddhist Meditation" xmlUrl="http://www.wildmind.org/feed/" />
-            <outline type="rss" title="Get Rich Slowly - Persona..." xmlUrl="http://www.getrichslowly.org/blog/feed/" />
-            <outline type="rss" title="b" Seth Godins Blog on marketing " xmlUrl ="tribes and respect "" />
-            <outline type="rss" title="Charisma on Command" xmlUrl="http://www.charismaoncommand.com/feed/" />
-            <outline type="rss" title="Mark Manson" xmlUrl="http://markmanson.net/feed" />
-            <outline type="rss" title="Betterment" xmlUrl="https://www.betterment.com/feed/" />
-            <outline type="rss" title="Wall Street Journal - Venture Capital Dispatch" xmlUrl="http://blogs.wsj.com/venturecapital/feed/" />
-            <outline type="rss" title="The Most Transcendentalist Blog Ever" xmlUrl="http://johnstranscendentalistblog.blogspot.com/feeds/posts/default?alt=rss" />
-            <outline type="rss" title="VentureBeat" xmlUrl="http://feeds.feedburner.com/venturebeat" />
-            <outline type="rss" title="MindTools.com" xmlUrl="http://www.mindtools.com/import.rss" />
-            <outline type="rss" title="Official LinkedIn Blog" xmlUrl="http://feeds.feedburner.com/LinkedInBlog" />
-            <outline type="rss" title="Ready For Zero Blog" xmlUrl="http://feeds.feedburner.com/readyforzero" />
-            <outline type="rss" title="The Blog of Author Tim Ferriss" xmlUrl="http://fourhourworkweek.com/feed/" />
-            <outline type="rss" title="The Cable Cutter" xmlUrl="http://www.thecablecutter.com/feed/" />
-            <outline type="rss" title="The Art of Manliness" xmlUrl="http://feeds2.feedburner.com/TheArtOfManliness" />
-            <outline type="rss" title="Simple Capacity" xmlUrl="http://www.simplecapacity.com/feed/" />
-            <outline type="rss" title="Man Vs. Debt" xmlUrl="http://feeds2.feedburner.com/manvsdebt" />
-            <outline type="rss" title="Daily Good" xmlUrl="http://www.servicespace.org/rss/sol.php" />
-            <outline type="rss" title="EWAO" xmlUrl="http://earthweareone.com/feed/" />
-            <outline type="rss" title="Wise Bread" xmlUrl="http://feeds.killeraces.com/wisebread" />
-            <outline type="rss" title="Headspace" xmlUrl="https://www.headspace.com/blog/rss" />
-            <outline type="rss" title="Taking Pitches:" xmlUrl="http://takingpitches.com/feed/" />
-            <outline type="rss" title="VC at Redpoint Venture" xmlUrl="http://tomasztunguz.com/feed/" />
-            <outline type="rss" title="Zencast" xmlUrl="http://feeds.feedburner.com/Zencast" />
-            <outline type="rss" title="The Art of Non-Conformity" xmlUrl="http://chrisguillebeau.com/feed" />
-            <outline type="rss" title="Simple Marriage" xmlUrl="http://feeds.feedburner.com/SimpleMarriage" />
-            <outline type="rss" title="Rugged Fellows Guide" xmlUrl="http://ruggedfellowsguide.com/feed/" />
-            <outline type="rss" title="The Mind Unleashed" xmlUrl="http://themindunleashed.org/feed" />
-            <outline type="rss" title="Engaged Marriage" xmlUrl="http://feeds.feedburner.com/EngagedMarriage" />
+        <outline text="Management and Leadership" title="Management and Leadership">
+            <outline type="rss" title="Greg Mankiw" xmlUrl="http://gregmankiw.blogspot.com/feeds/posts/default" />
+            <outline type="rss" title="Great Leadership" xmlUrl="http://www.greatleadershipbydan.com/feeds/posts/default" />
+            <outline type="rss" title="Rethink" xmlUrl="http://blogs.forbes.com/taranelson/feed/" />
+            <outline type="rss" title="Management Innovation eXchange blogs" xmlUrl="http://www.managementexchange.com/blog/feed" />
+            <outline type="rss" title="strategy+business - All U..." xmlUrl="http://feeds.feedburner.com/StrategyBusiness-AllUpdates" />
+            <outline type="rss" title="HBS Working Knowledge" xmlUrl="http://hbswk.hbs.edu/rss/rss.xml" />
+            <outline type="rss" title="confused of calcutta" xmlUrl="http://confusedofcalcutta.com/feed/" />
+            <outline type="rss" title="Radical Management" xmlUrl="http://blogs.forbes.com/stevedenning/feed/" />
+            <outline type="rss" title="SmartBlogs" xmlUrl="http://smartblogs.com/feed/" />
+            <outline type="rss" title="Leading in Context" xmlUrl="http://leadingincontext.com/feed/" />
+            <outline type="rss" title="Rita Gunther McGrath" xmlUrl="http://ritamcgrath.com/feed/" />
+            <outline type="rss" title="General Leadership | Leadership Adv..." xmlUrl="http://feeds.feedburner.com/GeneralLeadership" />
+            <outline type="rss" title="blog maverick" xmlUrl="http://blogmaverick.com/feed/" />
+            <outline type="rss" title="A More Beautiful Question by Warren Berger" xmlUrl="http://amorebeautifulquestion.com/feed/" />
+            <outline type="rss" title="SERVICE AND SELFLESSNESS AT WORK" xmlUrl="http://blogs.forbes.com/augustturak/feed/" />
+            <outline type="rss" title="Youre the Boss" xmlUrl="http://boss.blogs.nytimes.com/feed/" />
+            <outline type="rss" title="T N T :  The Network Thinkers" xmlUrl="http://www.thenetworkthinkers.com/feeds/posts/default?alt=rss" />
+            <outline type="rss" title="RSA - Vision videos" xmlUrl="http://feeds.feedburner.com/rsavisionvideos" />
+            <outline type="rss" title="David Burkus" xmlUrl="http://ldrlb.co/feed/" />
+            <outline type="rss" title="Harvard Business Review" xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness/" />
+            <outline type="rss" title="General Leadership | Life Leaders..." xmlUrl="http://generalleadership.com/leadership/feed/" />
+            <outline type="rss" title="The McKinsey Quarterly" xmlUrl="http://rss.mckinseyquarterly.com/f/100001s1umq2371m08n.rss" />
+            <outline type="rss" title="Frank Sonnenberg Online" xmlUrl="http://www.franksonnenbergonline.com/feed/" />
+            <outline type="rss" title="WSJ.com: Gary Hamels Management 2.0" xmlUrl="http://blogs.wsj.com/management/feed/" />
+            <outline type="rss" title="Under30CEO" xmlUrl="http://under30ceo.com/feed/" />
+            <outline type="rss" title="HBR Blog Network Full Feed" xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness" />
+            <outline type="rss" title="Dumb Little Man - Tips for Life" xmlUrl="http://feeds.feedburner.com/DumbLittleMan" />
+            <outline type="rss" title="Foghound" xmlUrl="http://feeds.feedburner.com/foghound/UjFm" />
+            <outline type="rss" title="AJBlogs  ArtsJournal" xmlUrl="http://www.artsjournal.com/ajblogcentral/index.xml" />
+            <outline type="rss" title="Justin Fox" xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness/fox/" />
+            <outline type="rss" title="TanveerNaseer.com" xmlUrl="http://www.tanveernaseer.com/feed/" />
+            <outline type="rss" title="Whitney Johnson" xmlUrl="http://whitneyjohnson.com/feed/" />
+            <outline type="rss" title="Leading Blog: A Leadership Blog" xmlUrl="http://www.leadershipnow.com/leadingblog/atom.xml" />
+            <outline type="rss" title="Adam Grants blog" xmlUrl="http://adammgrant.tumblr.com/rss" />
+            <outline type="rss" title="Jamie Notter" xmlUrl="http://feeds.feedburner.com/getmejamienotter" />
+            <outline type="rss" title="Jesse Lyn Stoner >>> Seapoint Center" xmlUrl="http://seapointcenter.com/feed/" />
+            <outline type="rss" title="Trends in the Living Networks" xmlUrl="http://feeds.feedburner.com/trendsinthelivingnetworks" />
+            <outline type="rss" title="Josh Allan Dykstra" xmlUrl="http://feeds.feedburner.com/joshallan" />
+            <outline type="rss" title="Switch Shift" xmlUrl="http://switchandshift.com/feed" />
+            <outline type="rss" title="Michael Hyatts Blog" xmlUrl="http://feeds.feedburner.com/michaelhyatt" />
+            <outline type="rss" title="Businessweek.com -- Most Popular" xmlUrl="http://www.businessweek.com/feeds/most-popular.rss" />
+            <outline type="rss" title="Seth Godins Blog on marketing" xmlUrl="tribes and respect" />
+            <outline type="rss" title="Aaron E. Silvers" xmlUrl="http://www.aaronsilvers.com/feed/atom/" />
+            <outline type="rss" title="Thin Difference" xmlUrl="http://feeds.feedburner.com/ThinDifference" />
+            <outline type="rss" title="The Abundant Community" xmlUrl="http://www.abundantcommunity.com/home/rss/parms/1/feed/all" />
+            <outline type="rss" title="Trust Across America-Trust Around the World" xmlUrl="http://www.trustacrossamerica.com/blog/?feed=rss2" />
+            <outline type="rss" title="Penelope Trunk Careers" xmlUrl="http://feeds.feedburner.com/BrazenCareerist" />
+            <outline type="rss" title="Scott Anthony" xmlUrl="http://feeds.harvardbusiness.org/harvardbusiness/anthony/" />
+            <outline type="rss" title="GOOD COMPANY" xmlUrl="http://www.goodcompanyindex.com/feed/" />
+            <outline type="rss" title="MIT Sloan Management Review" xmlUrl="http://sloanreview.mit.edu/feed/" />
+            <outline type="rss" title="LEADING INSIGHT" xmlUrl="http://blogs.forbes.com/dorieclark/feed/" />
         </outline>
     </body>
 </opml>
