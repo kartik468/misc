@@ -1,0 +1,79 @@
+#!/usr/bin/env python2
+# vim:fileencoding=utf-8
+from __future__ import unicode_literals, division, absolute_import, print_function
+from calibre.web.feeds.news import BasicNewsRecipe
+
+class AdvancedUserRecipe1454088155(BasicNewsRecipe):
+    title          = 'HBL full rss'
+    oldest_article = 8
+    max_articles_per_feed = 100
+    auto_cleanup   = True
+    extra_css = '''
+        p, div { margin: 0pt; border: 0pt; text-indent: 1.5em,margin-top: 0px;margin-bottom: 0px; },
+        spacious { margin-bottom: 1em; text-indent: 0pt; }
+                '''
+
+    feeds          = [
+        ('Logistics', 'http://www.thehindubusinessline.com/economy/logistics/?service=rss'),
+        ('Home', 'http://www.thehindubusinessline.com/?service=rss'),
+        ('News', 'http://www.thehindubusinessline.com/news/?service=rss'),
+        ('National', 'http://www.thehindubusinessline.com/news/national/?service=rss'),
+        ('Science', 'http://www.thehindubusinessline.com/news/science/?service=rss'),
+        ('Solutions and Co', 'http://www.thehindubusinessline.com/news/solutions-and-co/?service=rss'),
+        ('Sports', 'http://www.thehindubusinessline.com/news/sports/?service=rss'),
+        ('World', 'http://www.thehindubusinessline.com/news/world/?service=rss'),
+        ('Variety', 'http://www.thehindubusinessline.com/news/variety/?service=rss'),
+        ('Education', 'http://www.thehindubusinessline.com/news/education/?service=rss'),
+        ('Real Estate', 'http://www.thehindubusinessline.com/news/real-estate/?service=rss'),
+        ('Markets', 'http://www.thehindubusinessline.com/markets/?service=rss'),
+        ('Stocks', 'http://www.thehindubusinessline.com/markets/stock-markets/?service=rss'),
+        ('Forex', 'http://www.thehindubusinessline.com/markets/forex/?service=rss'),
+        ('Commodities', 'http://www.thehindubusinessline.com/markets/commodities/?service=rss'),
+        ('Gold and Silver', 'http://www.thehindubusinessline.com/markets/gold/?service=rss'),
+        ('Todays Pick', 'http://www.thehindubusinessline.com/markets/todays-pick/?service=rss'),
+        ('Companies', 'http://www.thehindubusinessline.com/companies/?service=rss'),
+        ('Announcements', 'http://www.thehindubusinessline.com/companies/announcements/?service=rss'),
+        ('Disclosures', 'http://www.thehindubusinessline.com/companies/announcements/disclosures/?service=rss'),
+        ('Results', 'http://www.thehindubusinessline.com/companies/announcements/results/?service=rss'),
+        ('Others', 'http://www.thehindubusinessline.com/companies/announcements/others/?service=rss'),
+        ('Economy', 'http://www.thehindubusinessline.com/economy/?service=rss'),
+        ('Agri Business', 'http://www.thehindubusinessline.com/economy/agri-business/?service=rss'),
+        ('Logistics', 'http://www.thehindubusinessline.com/economy/logistics/?service=rss'),
+        ('Macro Economy', 'http://www.thehindubusinessline.com/economy/macro-economy/?service=rss'),
+        ('Policy', 'http://www.thehindubusinessline.com/economy/policy/?service=rss'),
+        ('Info-tech', 'http://www.thehindubusinessline.com/info-tech/?service=rss'),
+        ('Social Media', 'http://www.thehindubusinessline.com/info-tech/social-media/?service=rss'),
+        ('Computers and Laptops', 'http://www.thehindubusinessline.com/info-tech/computers-and-laptops/?service=rss'),
+        ('Mobiles and Tablets', 'http://www.thehindubusinessline.com/info-tech/mobiles-tablets/?service=rss'),
+        ('Other Gadgets', 'http://www.thehindubusinessline.com/info-tech/other-gadgets/?service=rss'),
+        ('Opinion', 'http://www.thehindubusinessline.com/opinion/?service=rss'),
+        ('Editorial', 'http://www.thehindubusinessline.com/opinion/editorial/?service=rss'),
+        ('Columns', 'http://www.thehindubusinessline.com/opinion/columns/?service=rss'),
+        ('Letters', 'http://www.thehindubusinessline.com/opinion/letters/?service=rss'),
+        ('Books', 'http://www.thehindubusinessline.com/opinion/books/?service=rss'),
+        ('Specials', 'http://www.thehindubusinessline.com/specials/?service=rss'),
+        ('Auto focus', 'http://www.thehindubusinessline.com/specials/auto-focus/?service=rss'),
+        ('Clean Tech', 'http://www.thehindubusinessline.com/specials/clean-tech/?service=rss'),
+        ('Emerging Entrepreneurs', 'http://www.thehindubusinessline.com/specials/emerging-entrepreneurs/?service=rss'),
+        ('Flight Plan', 'http://www.thehindubusinessline.com/specials/flight-plan/?service=rss'),
+        ('India File', 'http://www.thehindubusinessline.com/specials/india-file/?service=rss'),
+        ('India Interior', 'http://www.thehindubusinessline.com/specials/india-interior/?service=rss'),
+        ('Pulse', 'http://www.thehindubusinessline.com/specials/pulse/?service=rss'),
+        ('Technophile', 'http://www.thehindubusinessline.com/specials/technophile/?service=rss'),
+        ('Luxe', 'http://www.thehindubusinessline.com/specials/luxe/?service=rss'),
+        ('New Manager', 'http://www.thehindubusinessline.com/specials/new-manager/?service=rss'),
+        ('Catalyst', 'http://www.thehindubusinessline.com/catalyst/?service=rss'),
+        ('BLink', 'http://www.thehindubusinessline.com/blink/?service=rss'),
+        ('Blogs', 'http://www.thehindubusinessline.com/blogs/?service=rss'),
+        ('Portfolio', 'http://www.thehindubusinessline.com/portfolio/?service=rss'),
+        ('Beyond Stocks', 'http://www.thehindubusinessline.com/portfolio/beyond-stocks/?service=rss'),
+        ('Macro View', 'http://www.thehindubusinessline.com/portfolio/macro-view/?service=rss'),
+        ('Net Worth', 'http://www.thehindubusinessline.com/portfolio/net-worth/?service=rss'),
+        ('Real Assets', 'http://www.thehindubusinessline.com/portfolio/real-assets/?service=rss'),
+        ('Your Money', 'http://www.thehindubusinessline.com/portfolio/your-money/?service=rss'),
+        ('Firm Calls', 'http://www.thehindubusinessline.com/portfolio/firm-calls/?service=rss'),
+        ('Mutual Funds', 'http://www.thehindubusinessline.com/portfolio/mutual-funds/?service=rss'),
+        ('Technically', 'http://www.thehindubusinessline.com/portfolio/technically/?service=rss'),
+        ('People', 'http://www.thehindubusinessline.com/portfolio/people/?service=rss'),
+        ('Campus', 'http://www.thehindubusinessline.com/on-campus/?service=rss'),
+    ]

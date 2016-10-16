@@ -1,4 +1,11 @@
-var fileName = 'management.recipe'
+var file1 = 'HBL full rss_1073'
+var mainTitle = 'Mixe subscriptions in feedly Cloud';
+var subTitle = file1;
+
+
+
+var fileName = file1 + '.recipe';
+var outputFileName = file1 + '.opml';
 
 var fs = require('fs');
 // : feeds          = \[(\n.*\(.*\),)*\n.*\]
@@ -8,8 +15,6 @@ var fs = require('fs');
 var matchedArray;
 var resultJson = [];
 
-var mainTitle = 'mixe subscriptions in feedly Cloud';
-var subTitle = 'Management and Leadership';
 
 fs.readFile(fileName, 'utf8', function(err, contents) {
     // console.log(contents);
@@ -58,7 +63,7 @@ var convertToOpml = function(jsonObject) {
     END = END + '</opml>\n';
 
     var fs = require('fs');
-    var wstream = fs.createWriteStream('myOutput.opml');
+    var wstream = fs.createWriteStream(outputFileName);
 
     wstream.write(START + '\n');
 

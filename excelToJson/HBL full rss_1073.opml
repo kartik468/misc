@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+
+    <head>
+        <title>Mixe subscriptions in feedly Cloud</title>
+    </head>
+
+    <body>
+        <outline text="HBL full rss_1073" title="HBL full rss_1073">
+            <outline type="rss" title="Logistics" xmlUrl="http://www.thehindubusinessline.com/economy/logistics/?service=rss" />
+            <outline type="rss" title="Home" xmlUrl="http://www.thehindubusinessline.com/?service=rss" />
+            <outline type="rss" title="News" xmlUrl="http://www.thehindubusinessline.com/news/?service=rss" />
+            <outline type="rss" title="National" xmlUrl="http://www.thehindubusinessline.com/news/national/?service=rss" />
+            <outline type="rss" title="Science" xmlUrl="http://www.thehindubusinessline.com/news/science/?service=rss" />
+            <outline type="rss" title="Solutions and Co" xmlUrl="http://www.thehindubusinessline.com/news/solutions-and-co/?service=rss" />
+            <outline type="rss" title="Sports" xmlUrl="http://www.thehindubusinessline.com/news/sports/?service=rss" />
+            <outline type="rss" title="World" xmlUrl="http://www.thehindubusinessline.com/news/world/?service=rss" />
+            <outline type="rss" title="Variety" xmlUrl="http://www.thehindubusinessline.com/news/variety/?service=rss" />
+            <outline type="rss" title="Education" xmlUrl="http://www.thehindubusinessline.com/news/education/?service=rss" />
+            <outline type="rss" title="Real Estate" xmlUrl="http://www.thehindubusinessline.com/news/real-estate/?service=rss" />
+            <outline type="rss" title="Markets" xmlUrl="http://www.thehindubusinessline.com/markets/?service=rss" />
+            <outline type="rss" title="Stocks" xmlUrl="http://www.thehindubusinessline.com/markets/stock-markets/?service=rss" />
+            <outline type="rss" title="Forex" xmlUrl="http://www.thehindubusinessline.com/markets/forex/?service=rss" />
+            <outline type="rss" title="Commodities" xmlUrl="http://www.thehindubusinessline.com/markets/commodities/?service=rss" />
+            <outline type="rss" title="Gold and Silver" xmlUrl="http://www.thehindubusinessline.com/markets/gold/?service=rss" />
+            <outline type="rss" title="Todays Pick" xmlUrl="http://www.thehindubusinessline.com/markets/todays-pick/?service=rss" />
+            <outline type="rss" title="Companies" xmlUrl="http://www.thehindubusinessline.com/companies/?service=rss" />
+            <outline type="rss" title="Announcements" xmlUrl="http://www.thehindubusinessline.com/companies/announcements/?service=rss" />
+            <outline type="rss" title="Disclosures" xmlUrl="http://www.thehindubusinessline.com/companies/announcements/disclosures/?service=rss" />
+            <outline type="rss" title="Results" xmlUrl="http://www.thehindubusinessline.com/companies/announcements/results/?service=rss" />
+            <outline type="rss" title="Others" xmlUrl="http://www.thehindubusinessline.com/companies/announcements/others/?service=rss" />
+            <outline type="rss" title="Economy" xmlUrl="http://www.thehindubusinessline.com/economy/?service=rss" />
+            <outline type="rss" title="Agri Business" xmlUrl="http://www.thehindubusinessline.com/economy/agri-business/?service=rss" />
+            <outline type="rss" title="Logistics" xmlUrl="http://www.thehindubusinessline.com/economy/logistics/?service=rss" />
+            <outline type="rss" title="Macro Economy" xmlUrl="http://www.thehindubusinessline.com/economy/macro-economy/?service=rss" />
+            <outline type="rss" title="Policy" xmlUrl="http://www.thehindubusinessline.com/economy/policy/?service=rss" />
+            <outline type="rss" title="Info-tech" xmlUrl="http://www.thehindubusinessline.com/info-tech/?service=rss" />
+            <outline type="rss" title="Social Media" xmlUrl="http://www.thehindubusinessline.com/info-tech/social-media/?service=rss" />
+            <outline type="rss" title="Computers and Laptops" xmlUrl="http://www.thehindubusinessline.com/info-tech/computers-and-laptops/?service=rss" />
+            <outline type="rss" title="Mobiles and Tablets" xmlUrl="http://www.thehindubusinessline.com/info-tech/mobiles-tablets/?service=rss" />
+            <outline type="rss" title="Other Gadgets" xmlUrl="http://www.thehindubusinessline.com/info-tech/other-gadgets/?service=rss" />
+            <outline type="rss" title="Opinion" xmlUrl="http://www.thehindubusinessline.com/opinion/?service=rss" />
+            <outline type="rss" title="Editorial" xmlUrl="http://www.thehindubusinessline.com/opinion/editorial/?service=rss" />
+            <outline type="rss" title="Columns" xmlUrl="http://www.thehindubusinessline.com/opinion/columns/?service=rss" />
+            <outline type="rss" title="Letters" xmlUrl="http://www.thehindubusinessline.com/opinion/letters/?service=rss" />
+            <outline type="rss" title="Books" xmlUrl="http://www.thehindubusinessline.com/opinion/books/?service=rss" />
+            <outline type="rss" title="Specials" xmlUrl="http://www.thehindubusinessline.com/specials/?service=rss" />
+            <outline type="rss" title="Auto focus" xmlUrl="http://www.thehindubusinessline.com/specials/auto-focus/?service=rss" />
+            <outline type="rss" title="Clean Tech" xmlUrl="http://www.thehindubusinessline.com/specials/clean-tech/?service=rss" />
+            <outline type="rss" title="Emerging Entrepreneurs" xmlUrl="http://www.thehindubusinessline.com/specials/emerging-entrepreneurs/?service=rss" />
+            <outline type="rss" title="Flight Plan" xmlUrl="http://www.thehindubusinessline.com/specials/flight-plan/?service=rss" />
+            <outline type="rss" title="India File" xmlUrl="http://www.thehindubusinessline.com/specials/india-file/?service=rss" />
+            <outline type="rss" title="India Interior" xmlUrl="http://www.thehindubusinessline.com/specials/india-interior/?service=rss" />
+            <outline type="rss" title="Pulse" xmlUrl="http://www.thehindubusinessline.com/specials/pulse/?service=rss" />
+            <outline type="rss" title="Technophile" xmlUrl="http://www.thehindubusinessline.com/specials/technophile/?service=rss" />
+            <outline type="rss" title="Luxe" xmlUrl="http://www.thehindubusinessline.com/specials/luxe/?service=rss" />
+            <outline type="rss" title="New Manager" xmlUrl="http://www.thehindubusinessline.com/specials/new-manager/?service=rss" />
+            <outline type="rss" title="Catalyst" xmlUrl="http://www.thehindubusinessline.com/catalyst/?service=rss" />
+            <outline type="rss" title="BLink" xmlUrl="http://www.thehindubusinessline.com/blink/?service=rss" />
+            <outline type="rss" title="Blogs" xmlUrl="http://www.thehindubusinessline.com/blogs/?service=rss" />
+            <outline type="rss" title="Portfolio" xmlUrl="http://www.thehindubusinessline.com/portfolio/?service=rss" />
+            <outline type="rss" title="Beyond Stocks" xmlUrl="http://www.thehindubusinessline.com/portfolio/beyond-stocks/?service=rss" />
+            <outline type="rss" title="Macro View" xmlUrl="http://www.thehindubusinessline.com/portfolio/macro-view/?service=rss" />
+            <outline type="rss" title="Net Worth" xmlUrl="http://www.thehindubusinessline.com/portfolio/net-worth/?service=rss" />
+            <outline type="rss" title="Real Assets" xmlUrl="http://www.thehindubusinessline.com/portfolio/real-assets/?service=rss" />
+            <outline type="rss" title="Your Money" xmlUrl="http://www.thehindubusinessline.com/portfolio/your-money/?service=rss" />
+            <outline type="rss" title="Firm Calls" xmlUrl="http://www.thehindubusinessline.com/portfolio/firm-calls/?service=rss" />
+            <outline type="rss" title="Mutual Funds" xmlUrl="http://www.thehindubusinessline.com/portfolio/mutual-funds/?service=rss" />
+            <outline type="rss" title="Technically" xmlUrl="http://www.thehindubusinessline.com/portfolio/technically/?service=rss" />
+            <outline type="rss" title="People" xmlUrl="http://www.thehindubusinessline.com/portfolio/people/?service=rss" />
+            <outline type="rss" title="Campus" xmlUrl="http://www.thehindubusinessline.com/on-campus/?service=rss" />
+        </outline>
+    </body>
+</opml>
